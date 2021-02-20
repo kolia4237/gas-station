@@ -476,6 +476,45 @@ namespace WindowsFormsApp19
         }
 
         #endregion
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button toCount;
+        private System.Windows.Forms.CheckBox HotDogCheckBox;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBoxFuel;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label toPayGasStation;
+        private System.Windows.Forms.CheckBox CokoColaCheckBox;
+        private System.Windows.Forms.CheckBox FrenchFriesCheckBox;
+        private System.Windows.Forms.CheckBox HamburgerCheckBox;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label toPayCafe;
+        private System.Windows.Forms.Label toPayTotal;
+        private System.Windows.Forms.ComboBox comboBoxFuel;
+        private System.Windows.Forms.TextBox textBoxRadioSum;
+        private System.Windows.Forms.TextBox textBoxFuelPrice;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.RadioButton radioButtonSum;
+        private System.Windows.Forms.RadioButton radioButtonCount;
+        private System.Windows.Forms.TextBox textBoxRadioCount;
+        private System.Windows.Forms.TextBox CokoColaCount;
+        private System.Windows.Forms.TextBox CokoColaPrice;
+        private System.Windows.Forms.TextBox FrenchFriesCount;
+        private System.Windows.Forms.TextBox FrenchFriesPrice;
+        private System.Windows.Forms.TextBox HamburgerCount;
+        private System.Windows.Forms.TextBox HamburgerPrice;
+        private System.Windows.Forms.TextBox HotDogCount;
+        private System.Windows.Forms.TextBox HotDogPrice;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Timer timer;
     }
 }
 
