@@ -406,7 +406,73 @@ namespace WindowsFormsApp19
             this.toPayCafe.Text = "0,00";
             this.toPayCafe.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(149, 58);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(27, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "грн.";
+            // 
 
+            this.groupBox5.Controls.Add(this.toPayTotal);
+            this.groupBox5.Controls.Add(this.label9);
+            this.groupBox5.Controls.Add(this.label7);
+            this.groupBox5.Controls.Add(this.toCount);
+            this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.groupBox5.Location = new System.Drawing.Point(12, 292);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(455, 96);
+            this.groupBox5.TabIndex = 6;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Всего к оплате";
+            // 
+
+            this.toPayTotal.Font = new System.Drawing.Font("", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.toPayTotal.ForeColor = System.Drawing.Color.Black;
+            this.toPayTotal.Location = new System.Drawing.Point(226, 24);
+            this.toPayTotal.Name = "toPayTotal";
+            this.toPayTotal.Size = new System.Drawing.Size(184, 60);
+            this.toPayTotal.TabIndex = 12;
+            this.toPayTotal.Text = "0,00";
+            this.toPayTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+
+
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(416, 71);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(27, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "грн.";
+            // 
+
+            this.timer.Interval = 1000;
+            // 
+
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(494, 400);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = " --------------Автозаправка * BestOil *---------------";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBoxFuel.ResumeLayout(false);
+            this.groupBoxFuel.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.ResumeLayout(false);
         }
 
         #endregion
